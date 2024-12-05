@@ -1,0 +1,160 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Zen+Dots&display=swap');
+@font-face {
+    font-family: 'bonita';
+    src: url(Lovelyn\ Free\ Personal\ Use.otf);
+    font-family: 'paranav';
+    src: url(NeueMontreal-Medium.otf);
+    font-family: 'cabecalho';
+    src: url(manega-demo-regular.otf);
+}
+
+:root{
+}
+
+
+body{
+   background-color: rgba(0, 0, 0, 0.89);  
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,h2,p{
+    color: white;
+}
+
+header{
+    background-color: #1F6893;
+    text-align: center;
+    margin: auto;
+}
+
+header > nav{
+    text-align: center;
+}
+
+nav{
+    padding: 10px;
+}
+
+nav a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: lighter;
+    font-family: 'paranav';
+    font-size: 17px;
+}
+
+nav > a:hover{
+    background-color: rgb(0, 153, 255);
+    color: rgb(0, 77, 177);
+    border-radius: 20px;
+}
+
+header > h1{
+    font-family: 'Bonita';
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.788);
+    font-size: 60px;
+}
+
+header > h2{
+    color: #F5C634;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 40px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.521);
+    font-size: 40px;
+}
+
+h1{
+    padding-top: 60px;
+}
+
+main{
+    max-width: 1000px;
+    min-width: 300px;
+}
+
+#principal1{
+    background-color: #004a8f;
+    border-radius: 20px;
+}
+
+#principal1 > h2{
+    color: #F5C634;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 10px;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.521);
+}
+
+#principal1:hover{
+    box-shadow: 0px 0px 10px rgba(23, 97, 255, 0.418);
+    transform: scale(1.03); /* Aumenta a caixa em 20% */
+}
+
+#principal1 > p{
+    padding: 20px;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    text-align: justify;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.541);
+    
+}
+
+.parte1{
+    text-align: justify;
+}
+
+#secundaria{
+    background-color: #004a8f;
+    border-radius: 20px;
+    margin-top: 30px;
+   
+}
+
+#secundaria > h2{
+    color: #F5C634;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.521);
+    padding-top: 10px;
+}
+
+#secundaria > p{
+    text-align: justify;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.541);
+    padding: 20px;
+    padding-top: 10px;
+    font-size: 17px;
+
+}
+
+#secundaria:hover{
+    box-shadow: 0px 0px 10px rgba(23, 97, 255, 0.418);
+    transform: scale(1.03); /* Aumenta a caixa em 20% */
+}
+
+
+article{
+    margin: 30px;
+    display: block;
+    
+}
+
+article > h2{
+    color: #F6BB50;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+

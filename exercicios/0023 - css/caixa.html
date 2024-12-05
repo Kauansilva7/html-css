@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tag</title>
+    <style>
+        body{
+            background-color: green;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 5px 3px 14px 0px rgba(0, 0, 0, 0.603);
+        }
+        footer{
+            background-color: yellow;
+            margin: auto;
+            text-align: center;
+            padding: 4px;
+        }
+        article{
+            background-color: rgb(180, 180, 180);
+        }
+        #id{
+            background-color: rgb(180, 180, 180);
+        }
+        nav{
+            background-color: gold;
+            box-shadow: 5px 5px 7px 1px rgba(0, 0, 0, 0.418);
+        }
+        nav > a{
+            margin: 10px;
+            text-decoration: none;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola{
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            margin: 20px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Meu site</h1>
+    <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    </nav>
+    </header>
+    <main>
+    <section id="assuntos">
+        Futebol Volei Basquete
+    </section>
+    <article>
+        <section id="conteudo">
+            <h2>Noticia de ultimas horas</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde ad debitis modi odit deserunt reprehenderit culpa sint similique nihil voluptates, sapiente qui ex quaerat in perspiciatis, aut quia dignissimos. Error?</p>
+        </section>
+    </article>
+        <article id="noticia2">
+            <h2>Noticia sobre o Brasil</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat dolorum illo iure deleniti eaque voluptate reprehenderit commodi? Similique, odio. Expedita provident, iste ducimus laudantium cupiditate dolorem doloribus in quasi possimus.</p>
+        </article>
+    </main>
+    <footer>
+    <p>Desenvolvido por Kauan</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

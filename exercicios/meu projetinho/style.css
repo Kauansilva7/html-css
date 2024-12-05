@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body{
+    background-color:rgb(141, 194, 65);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p,ul{
+    color: rgb(0, 0, 0);
+}
+
+.titulo{
+    text-align: center;
+}
+
+.amparo:hover{
+    color: rgb(0, 0, 0);
+}
+
+.xvdejau:hover{
+    color: green;
+}
+
+.saopaulo:hover{
+    color: red;
+}
+
+.interlimeira:hover{
+    color: blue;
+}
+
+.ogol:visited{
+    color: rgb(0, 0, 0);
+}
+.ogol:hover{
+    color: rgb(0, 47, 255);
+}
+
+main{
+    background-color: white;
+    width: 500px;
+    height: 821px;
+    padding: 40px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 6px 6px 15px rgb(140, 224, 83);
+}
+
+
+
+h1{
+    color: #C2B242;
+}
+h2{
+    text-decoration: solid;
+    color: rgb(105, 255, 18);
+}
+
+.sites:visited{
+    color: rgb(161, 104, 0);
+}
