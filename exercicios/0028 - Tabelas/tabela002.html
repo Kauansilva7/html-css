@@ -6,7 +6,7 @@
     <title>Tabelas grandes</title>
     <style>
         table{
-            width: 350px;
+            width: 450px;
             border-collapse: collapse;
         }
 
@@ -22,11 +22,16 @@
 
         td.num{
             text-align: right;
+            width: 100px;
         }
 
         td.numtotal{
             text-align: center;
             font-weight: bolder;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
         }
     </style>
 </head>
@@ -34,8 +39,8 @@
     <table>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -51,10 +56,22 @@
                 <td>Rio de Janeiro</td>
                 <td class="num">17.264.943</td>
             </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">14.974.873</td>
+            </tr>
+            <tr>
+                <td>Espirito Santo</td>
+                <td class="num">12.063.679</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="num">22.987.908</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="numtotal">84.352.783</td>
             </tr>
         </tfoot>
