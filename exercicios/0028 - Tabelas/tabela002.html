@@ -8,6 +8,7 @@
         table{
             width: 450px;
             border-collapse: collapse;
+            position: relative;
         }
 
         th, td{
@@ -32,6 +33,12 @@
 
         tbody > tr:nth-child(2n){
             background-color: lightgray;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0px;
+            background-color: darkgray;
         }
     </style>
 </head>
